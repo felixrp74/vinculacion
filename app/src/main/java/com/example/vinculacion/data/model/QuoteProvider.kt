@@ -1,8 +1,12 @@
-package com.example.vinculacion.model
+package com.example.vinculacion.data.model
 
 class QuoteProvider {
     companion object {
+        var quotes:List<QuoteModel> = emptyList()
 
+
+
+        /*
         fun random(): QuoteModel {
             val position = (0..10).random()
             return quotes[position]
@@ -45,5 +49,7 @@ class QuoteProvider {
             ),
             QuoteModel(quote = "¿A que esperas?, suscríbete.", author = "AristiDevs")
         )
+
+        */
     }
 }
